@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react-swc';
 export default defineConfig({
   base: '/Oficina_react_ETE-PD/',
   plugins: [react()],
+  build: {
+    outDir: 'docs',
+  },
 });
